@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+	<Resource 
+		name="jdbc/hockeyGame" 
+		type="javax.sql.DataSource"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		maxActive="100" 
+		maxIdle="20" 
+		maxWait="10000"
+		url="jdbc:mysql://****.****.us-east-1.rds.amazonaws.com:3306/****"
+		driverClassName="com.mysql.jdbc.Driver" 
+		username="****" 
+		password="****" 
+	/>
+	
+	
+</Context>
